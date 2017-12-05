@@ -4,9 +4,9 @@ class Carta
 public:
 	enum Color {rojo, verde, azul, amarillo, negro};
 	enum type {numero, especial};
-	Carta(Color);
+	Carta(Color e);
 	~Carta();
-	Color * getColor();
+	Color getColor();
 	type getTipo();
 protected:
 	

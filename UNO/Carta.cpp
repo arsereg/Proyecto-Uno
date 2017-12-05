@@ -11,6 +11,16 @@ Carta::~Carta()
 {
 }
 
+Carta::Color Carta::getColor()
+{
+	return colorCarta;
+}
+
+Carta::type Carta::getTipo()
+{
+	return tipoCarta;
+}
+
 
 
 void Carta::setColor(Color pcolor)
