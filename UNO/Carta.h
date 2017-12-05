@@ -1,18 +1,20 @@
 #pragma once
+#include <iostream>
+using std::string;
 class Carta
 {
 public:
 	enum Color {rojo, verde, azul, amarillo, negro};
 	enum type {numero, especial};
-	Carta(Color e);
+	Carta(Color e, type b);
 	~Carta();
-	Color getColor();
-	type getTipo();
+	string getColor();
+	string getTipo();
 protected:
 	
 	type tipoCarta;
 	Color colorCarta;
 	void setColor(Color);
-	void setTipo();
+	void setTipo(type e);
 };
 

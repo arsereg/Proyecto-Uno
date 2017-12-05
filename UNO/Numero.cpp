@@ -4,13 +4,9 @@
 
 
 Numero::Numero(int pnumero, Carta::Color pcolor)
-	:Carta::Carta(pcolor)
+	:Carta::Carta(pcolor, Carta::numero)
 {
-}
-
-
-Numero::~Numero()
-{
+	setNumero(pnumero);
 }
 
 int Numero::getNumero()

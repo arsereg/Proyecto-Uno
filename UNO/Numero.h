@@ -5,7 +5,6 @@ class Numero :
 {
 public:
 	Numero(int pnumero, Carta::Color pcolor);
-	~Numero();
 	int getNumero();
 private:
 	int numero;

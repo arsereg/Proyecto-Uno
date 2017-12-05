@@ -2,23 +2,35 @@
 #include "Carta.h"
 
 
-Carta::Carta(Color pcolor)
+Carta::Carta(Color pcolor, type ptipo)
 {
 	setColor(pcolor);
+	setTipo(ptipo);
 }
 
 Carta::~Carta()
 {
 }
 
-Carta::Color Carta::getColor()
+string Carta::getColor()
 {
-	return colorCarta;
+	switch (colorCarta) {
+	case rojo: return "rojo"; break;
+	case verde: return "verde"; break;
+	case azul: return "azul"; break;
+	case amarillo: return "amarillo"; break;
+	case negro: return "negro"; break;
+	default: return "error";
+	}
 }
 
-Carta::type Carta::getTipo()
+string Carta::getTipo()
 {
-	return tipoCarta;
+	switch (tipoCarta) {
+	case numero: return "numero"; break;
+	case especial: return "especial"; break;
+	default: return "error";
+	}
 }
 
 
@@ -26,4 +38,9 @@ Carta::type Carta::getTipo()
 void Carta::setColor(Color pcolor)
 {
 	colorCarta = pcolor;
+}
+
+void Carta::setTipo(type ptipo)
+{
+	tipoCarta = ptipo;
 }
