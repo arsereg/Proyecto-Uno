@@ -1,94 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Archivos de origen">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Archivos de encabezado">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
-    </Filter>
-    <Filter Include="Archivos de recursos">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
+    <ClCompile Include="Carta.cpp" />
+    <ClCompile Include="Cementerio.cpp" />
+    <ClCompile Include="Cola.cpp" />
+    <ClCompile Include="Lista.cpp" />
+    <ClCompile Include="Mazo.cpp" />
+    <ClCompile Include="Numero.cpp" />
+    <ClCompile Include="Pila.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="UNO.cpp" />
+    <ClCompile Include="Especial.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Carta.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="resource.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Numero.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-<<<<<<< HEAD
-    <ClInclude Include="Cola.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Pila.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Lista.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Nodo.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Cementerio.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Mazo.h">
-=======
-    <ClInclude Include="Especial.h">
->>>>>>> 0d5395460858f4c0951f16290ce138595b0f01cf
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
+    <ClInclude Include="Carta.h" />
+    <ClInclude Include="Cementerio.h" />
+    <ClInclude Include="Cola.h" />
+    <ClInclude Include="Lista.h" />
+    <ClInclude Include="Mazo.h" />
+    <ClInclude Include="Nodo.h" />
+    <ClInclude Include="Numero.h" />
+    <ClInclude Include="Pila.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Especial.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="UNO.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="Carta.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="Numero.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-<<<<<<< HEAD
-    <ClCompile Include="Cola.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="Pila.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="Lista.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="Cementerio.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="Mazo.cpp">
-=======
-    <ClCompile Include="Especial.cpp">
->>>>>>> 0d5395460858f4c0951f16290ce138595b0f01cf
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="UNO.rc">
-      <Filter>Archivos de recursos</Filter>
-    </ResourceCompile>
+    <ResourceCompile Include="UNO.rc" />
   </ItemGroup>
 </Project>
