@@ -62,10 +62,9 @@ int Buffer::calcularCartas() {
 
 void Buffer::guardarCarta(Carta * pCarta)
 {
-	string c = "";
 	getColaBuffer()->pushElem(pCarta);
-	
-	if (pCarta->getTipo() != "salta"  || pCarta->getTipo() != "giro"){
+	setColor(pCarta->getColor());
+	if (pCarta->getTipo() != "salta" || pCarta->getTipo() != "giro") {
 		siguienteTurno();
 	}
 }
