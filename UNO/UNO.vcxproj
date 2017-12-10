@@ -147,16 +147,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Buffer.h" />
     <ClInclude Include="Carta.h" />
+    <ClInclude Include="ColaBuffer.h" />
     <ClInclude Include="Especial.h" />
+    <ClInclude Include="NodoBuffer.h" />
     <ClInclude Include="Numero.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Buffer.cpp" />
     <ClCompile Include="Carta.cpp" />
+    <ClCompile Include="ColaBuffer.cpp" />
     <ClCompile Include="Especial.cpp" />
+    <ClCompile Include="NodoBuffer.cpp" />
     <ClCompile Include="Numero.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
