@@ -148,15 +148,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Carta.h" />
-<<<<<<< HEAD
     <ClInclude Include="Cementerio.h" />
     <ClInclude Include="Cola.h" />
     <ClInclude Include="Lista.h" />
     <ClInclude Include="Mazo.h" />
     <ClInclude Include="Nodo.h" />
-=======
-    <ClInclude Include="Especial.h" />
->>>>>>> 0d5395460858f4c0951f16290ce138595b0f01cf
     <ClInclude Include="Numero.h" />
     <ClInclude Include="Pila.h" />
     <ClInclude Include="resource.h" />
@@ -165,14 +161,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Carta.cpp" />
-<<<<<<< HEAD
     <ClCompile Include="Cementerio.cpp" />
     <ClCompile Include="Cola.cpp" />
     <ClCompile Include="Lista.cpp" />
     <ClCompile Include="Mazo.cpp" />
-=======
-    <ClCompile Include="Especial.cpp" />
->>>>>>> 0d5395460858f4c0951f16290ce138595b0f01cf
     <ClCompile Include="Numero.cpp" />
     <ClCompile Include="Pila.cpp" />
     <ClCompile Include="stdafx.cpp">
