@@ -2,11 +2,18 @@
 #include "Cementerio.h"
 
 
-Cementerio::Cementerio()
-{
+Cementerio::Cementerio() {
+	this->cementerioCartas = new Cola<Carta>;
 }
 
 
-Cementerio::~Cementerio()
-{
+Cementerio::~Cementerio() {
+}
+
+void Cementerio::ponerCarta(Carta cartanueva) {
+	this->cementerioCartas->insertarElem(cartanueva);
+}
+Mazo Cementerio::darVuelta() {
+	//repetir x cuantas cartas haya
+	this->cementerioCartas->insertarElem(this->cementerioCartas->atender());
 }

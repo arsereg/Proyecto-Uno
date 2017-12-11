@@ -2,11 +2,14 @@
 #include "Mazo.h"
 
 
-Mazo::Mazo()
-{
+Mazo::Mazo() {
+	this->cartasPila = new Pila<Carta>;
 }
 
 
-Mazo::~Mazo()
-{
+Mazo::~Mazo() {
+}
+
+Carta Mazo::sacarCarta() {
+	return this->cartasPila->pop();
 }
