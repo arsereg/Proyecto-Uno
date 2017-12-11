@@ -14,6 +14,9 @@ void Cementerio::ponerCarta(Carta cartanueva) {
 	this->cementerioCartas->insertarElem(cartanueva);
 }
 Mazo Cementerio::darVuelta() {
-	//repetir x cuantas cartas haya
-	this->cementerioCartas->insertarElem(this->cementerioCartas->atender());
+	Mazo *mazoretorna = new Mazo;
+	for (int i = 0; i < this->cementerioCartas->longCola(); i++) {
+		mazoretorna->ponerCarta(this->cementerioCartas->atender());
+	}
+	return *mazoretorna;
 }

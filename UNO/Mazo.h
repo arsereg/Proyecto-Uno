@@ -9,5 +9,6 @@ public:
 	Mazo();
 	~Mazo();
 	Carta sacarCarta();
+	void ponerCarta(Carta);
 };
 
